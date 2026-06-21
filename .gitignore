@@ -1,0 +1,30 @@
+# Node / Next.js
+node_modules/
+.next/
+out/
+build/
+.vercel/
+*.tsbuildinfo
+next-env.d.ts
+
+# Env
+.env
+.env.local
+.env*.local
+backend/.env
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+
+# Local server datastore (Prescriptions module)
+.data/
+
+# Misc
+.DS_Store
+*.log
+/tmp/
